@@ -1,4 +1,5 @@
 package com.example.learntogether
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -56,7 +57,7 @@ fun LearnTogetherApp() {
             modifier = Modifier.padding(start = 16.dp, end = 16.dp)
         )
         Text(
-            text = stringResource(R.string.jetpack_compose_description),
+            text = stringResource(R.string.jetpack_compose_explication),
             textAlign = TextAlign.Justify,
             modifier = Modifier.padding(16.dp)
         )
